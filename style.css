@@ -1,0 +1,32 @@
+#reloj {
+  font-size: 36px;
+  font-family: Arial, sans-serif;
+  display: inline-block;
+  padding: 10px;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative; /* para posicionar el segundero */
+}
+
+#hora,
+#minutos,
+#segundos {
+  font-weight: bold;
+  color: #333;
+}
+
+#segundero {
+  width: 2px;
+  height: 50%;
+  background-color: red;
+  position: absolute;
+  transform-origin: bottom center;
+  animation: girar 60s linear infinite;
+}
+
+
+
+
+
